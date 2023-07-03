@@ -1,0 +1,126 @@
+{
+    "opts":"ajaxListenerPath", // always this for reddit
+    "ttst":271.20000000018626, // time to execute all checks in milis
+    "ifov":false, // some sort of jsdom check? should be false
+    "tagpu":10.464481108568917,
+    "glvd":"", // UNMASKED_VENDOR_WEBGL
+    "glrd":"", // UNMASKED_RENDERER_WEBGL
+    "hc":12, // navigator.hardwareConcurrency
+    "br_oh":1002, // window.outerHeight
+    "br_ow":1784, // window.outerWidth
+    "ua":"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36", // navigator.userAgent
+    "wbd":false, // webdriver check 1. should be false
+    "wdif":false, // webdriver check 2. should be false
+    "wdifrm":false, // webdriver check 3. should be false
+    "npmtm":false, // jsdom check. should be false
+    "br_h":811, // document.documentElement.clientHeight or window.innerHeight
+    "br_w":1706, // document.documentElement.clientWidth or window.innerWidth
+    "nddc":1, // should be 1. something related to the datadome cookie
+    "rs_h":1440, // window.screen.height
+    "rs_w":2560, // window.screen.width
+    "rs_cd":24, // window.screen.colorDepth
+    "phe":false, // phantomjs check. should be false
+    "nm":false, // nightmarejs check. should be false
+    "jsf":false, // eval check. should be false
+    "lg":"en-US", // navigator.language
+    "pr":1, // window.devicePixelRatio
+    "ars_h":1386, // screen.availHeight
+    "ars_w":2560, // screen.availWidth
+    "tz":-120, // new Date().getTimezoneOffset()
+    "str_ss":true, // session storage exists
+    "str_ls":true, // local storage exists
+    "str_idb":true, // indexed db exists
+    "str_odb":true, // open database exists
+    "plgod":false, // something related to plugins. should be false
+    "plg":5, // amount of plugins installed. default is 5
+    "plgne":true, // should be true
+    "plgre":true, // should be true
+    "plgof":false, // should be false
+    "plggt":false, // should be false
+    "pltod":false, // getOwnPropertyDescriptor navigator.platform. should be false
+    "hcovdr":false, // should be false
+    "hcovdr2":false, // should be false
+    "plovdr":false, // should be false
+    "plovdr2":false, // should be false
+    "ftsovdr":false, // should be false
+    "ftsovdr2":false, // should be false
+    "lb":false, // false on both chrome and firefox
+    "eva":33, // eval.toString().length | chrome = 33, firefox = 37
+    "lo":false, // complicated, false on firefox
+    "ts_mtp":0, // navigator.maxTouchPoints
+    "ts_tec":false, // document.createEvent('TouchEvent') | false on both chrome and firefox
+    "ts_tsa":false, // 'ontouchstart' in window | false on both chrome and firefox
+    "vnd":"Google Inc.", // window.navigator.vendor
+    "bid":"NA", // window.navigator.buildID | available on firefox. NA on chrome
+    "mmt":"application/pdf,text/pdf", // window.navigator.mimeTypes | same on chrome and firefox
+    "plu":"PDF Viewer,Chrome PDF Viewer,Chromium PDF Viewer,Microsoft Edge PDF Viewer,WebKit built-in PDF", // default plugins on chrome and firefox
+    "hdn":false, // document.hidden | false on chrome and firefox
+    "awe":false, // window.awesomium | false
+    "geb":false, // window.geb | false
+    "dat":false, // dom automation | false
+    "med":"defined", //  window.navigator.mediaDevices (is defined?) | same on chrome and firefox
+    "aco":"probably", // firefox = probably, chrome = probably | audio/ogg;\x20codecs=\x22vorbis\x22
+    "acots":false, // firefox = false, chrome = false | audio/ogg;\x20codecs=\x22vorbis\x22
+    "acmp":"probably", // firefox = maybe, chrome = probably | audio/mpeg;
+    "acmpts":true, // firefox = false, chrome = true | audio/mpeg;\x22
+    "acw":"probably", // firefox = probably, chrome = probably | audio/wav;\x20codecs=\x221\x22
+    "acwts":false, // firefox = false, chrome = false | audio/wav;\x20codecs=\x221\x22
+    "acma":"maybe", // firefox = maybe, chrome = maybe | audio/x-m4a;
+    "acmats":false, // firefox = false, chrome = false | audio/x-m4a;
+    "acaa":"probably", // firefox = maybe, chrome = probably | audio/aac;
+    "acaats":true, // firefox = false, chrome = true | audio/aac;
+    "ac3":"", // firefox = "", chrome = "" | audio/3gpp;
+    "ac3ts":false, // firefox = false, chrome = false | audio/3gpp;
+    "acf":"probably", // firefox = maybe, chrome = probably | audio/flac;
+    "acfts":false, // firefox = false, chrome = false | audio/flac;
+    "acmp4":"maybe", // firefox = maybe, chrome = maybe | audio/mp4;
+    "acmp4ts":false, // firefox = true, chrome = false | audio/mp4;
+    "acmp3":"probably", // firefox = maybe, chrome = probably | audio/mp3;
+    "acmp3ts":false, // firefox = false, chrome = false | audio/mp3;
+    "acwm":"maybe", // firefox = maybe, chrome = maybe | audio/webm;
+    "acwmts":false, // firefox = true, chrome = false | audio/webm;
+    "ocpt":false, // false | -0x1 === x.canPlayType.toString().indexOf('canPlayType')
+    "vco":"NA", // these are all video types. they can be NA ----------
+    "vch":"NA",
+    "vcw":"NA",
+    "vc3":"NA",
+    "vcmp":"NA",
+    "vcq":"NA",
+    "vc1":"NA",
+    "vcots":"NA",
+    "vchts":"NA",
+    "vcwts":"NA",
+    "vc3ts":"NA",
+    "vcmpts":"NA",
+    "vcqts":"NA",
+    "vc1ts":"NA", // video types end
+    "dvm":8, // -1 on firefox. on chrome it is the amount of ram (navigator.deviceMemory)
+    "sqt":false, // false
+    "so":"landscape-primary", // window.screen.orientation.type
+    "wdw":true, // true on both firefox and chrome
+    "cokys":"bG9hZFRpbWVzY3NpYXBwL=", // empty on firefox, "loadTimescsiapp" base64d on chrome (window.chrome keys connected together)
+    "ecpc":false, // electron check, false
+    "lgs":true, // navigator.languages !== ""
+    "lgsod":false, // Object['getOwnPropertyDescriptor'](navigator, 'languages')
+    "psn":true, // window['PermissionStatus']['prototype']['hasOwnProperty']('name') | true on both
+    "edp":true, // window['EyeDropper'] | exists on chrome, not on firefox
+    "addt":true, // window['AudioData'] | exists on chrome, not on firefox
+    "wsdc":true, // window['WritableStreamDefaultController'] | exists on both
+    "ccsr":true, // window['CSSCounterStyleRule'] | exists on both
+    "nuad":true, // window['NavigatorUAData'] | exists on both
+    "bcda":false, // window['BarcodeDetector'] | undefined on both
+    "idn":true, // !(!window['Intl'] || !Intl['DisplayNames']) | true on both
+    "capi":false, // !!(window['navigator'] && window['navigator']['contacts'] && window['navigator']['ContactsManager']) | false on both
+    "svde":false, // !!window['SVGDiscardElement'] | false on both
+    "vpbq":true, // !!(window['HTMLVideoElement'] && window['HTMLVideoElement']['prototype'] && window['HTMLVideoElement']['prototype']['getVideoPlaybackQuality']); | true on both
+    "ucdv":false, // 'undefined' != typeof objectToInspect | false on both
+    "spwn":false, // window.spawn | false on both
+    "emt":false, // window.emit | false on both
+    "bfr":false, // window.Buffer | false on both
+    "dbov":false, // !!('' + window['console']['debug'])['match'](/[\)\( ]{3}[>= ]{3}\{\n[ r]{9}etu[n r]{3}n[lu]{3}/) | false on both
+    "prm":true, // notification permission prompt denied/accepted
+    "tzp":"Europe/Warsaw", // Intl['DateTimeFormat']()['resolvedOptions']()['timeZone']
+    "cvs":true, // canvas exists
+    "usb":"defined", // window.navigator.usb
+    "jset":1688336290 // Math.floor(Date.now() / 1000)
+ }
